@@ -5,13 +5,13 @@ c = int(input("Digite o valor de C: "))
 if(a == 0):
  print("A equação não é do segundo grau igual o elton")
 
- d = b**2 - (4*a*c)
-if(d < 0):
+ b= b**2 - (4*a*c)
+if(b < 0):
    print("A equação não possui raizes reais porque sim.")
 
-elif(d == 0):
+elif(b == 0):
    print("Só possui uma raiz real")
 
-elif(d > 0):
+elif(b > 0):
    print("A equação possui duas raizes reais ")
 
