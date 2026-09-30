@@ -7,3 +7,4 @@ for i in range(50):
 print("Números ímpares armazenados no vetor:\n")
 for i in range(50):
     print(impares[i], end=" ")
+ 
